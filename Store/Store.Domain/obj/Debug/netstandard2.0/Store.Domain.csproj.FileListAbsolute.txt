@@ -1,0 +1,8 @@
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/bin/Debug/netstandard2.0/Store.Domain.deps.json
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/bin/Debug/netstandard2.0/Store.Domain.dll
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/bin/Debug/netstandard2.0/Store.Domain.pdb
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/Debug/netstandard2.0/Store.Domain.csprojAssemblyReference.cache
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/Debug/netstandard2.0/Store.Domain.AssemblyInfoInputs.cache
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/Debug/netstandard2.0/Store.Domain.AssemblyInfo.cs
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/Debug/netstandard2.0/Store.Domain.dll
+/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/Debug/netstandard2.0/Store.Domain.pdb

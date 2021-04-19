@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/renatoarua/dev/courses/7182/Store/Store.Tests/Store.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/renatoarua/dev/courses/7182/Store/Store.Domain/Store.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/renatoarua/dev/courses/7182/Store/Store.Domain/Store.Domain.csproj",
+        "projectName": "Store.Domain",
+        "projectPath": "/home/renatoarua/dev/courses/7182/Store/Store.Domain/Store.Domain.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/renatoarua/dev/courses/7182/Store/Store.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/renatoarua/dev/courses/7182/Store/Store.Tests/Store.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/renatoarua/dev/courses/7182/Store/Store.Tests/Store.Tests.csproj",
+        "projectName": "Store.Tests",
+        "projectPath": "/home/renatoarua/dev/courses/7182/Store/Store.Tests/Store.Tests.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/renatoarua/dev/courses/7182/Store/Store.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/renatoarua/dev/courses/7182/Store/Store.Domain/Store.Domain.csproj": {
+                "projectPath": "/home/renatoarua/dev/courses/7182/Store/Store.Domain/Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
